@@ -1,0 +1,258 @@
+/* Reset all elements to remove default margin, padding, and text decoration, and set a standard font */
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Body styles */
+body {
+  background-color: #121212; /* Dark background for the body */
+  color: #333333; /* Light text color for better contrast */
+}
+
+/* Main container section */
+#c {
+  background-image: url(../img/workout.jpg);
+  height: 750px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Container for content */
+#container {
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  display: flex;
+}
+
+.card-cont img {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/* Box within the container */
+#box {
+  margin-top: 15%;
+  width: 60%;
+}
+
+/* Header styles */
+#head {
+  color: #ffcc00; /* Yellow color for header */
+  font-weight: 600;
+  letter-spacing: 0.042em;
+  padding-bottom: 15px;
+  font-size: 1.4em;
+  line-height: 26px;
+}
+
+/* H1 styles within the box */
+#box>h1 {
+  color: #ffffff; /* White text color */
+  font-size: 4em;
+  margin-bottom: 3%;
+  font-weight: 400;
+  letter-spacing: 0.001em;
+  line-height: 80px;
+}
+
+/* Paragraph styles within the box */
+#box>p {
+  color: #ffffff; /* White text color */
+  font-size: 1.4em;
+}
+
+/* Container with dark background */
+/* Styles for PHP-generated content section */
+.cont {
+  height: auto; /* Adjust height as needed */
+  width: 100%;
+  background-color: #1e1e1e;
+  padding: 20px; /* Add padding for spacing */
+}
+
+.cont > .inside {
+  margin: auto;
+  width: 80%;
+  border: 1px solid #333333;
+  background-color: #2e2e2e; /* Dark background for inside container */
+  padding: 20px; /* Add padding for spacing */
+}
+
+.cont > .inside > .cardcont {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Adjust gap between cards */
+}
+
+.cont > .inside > .cardcont > .cards {
+  height: auto; /* Adjust height as needed */
+  border: 1px solid #444444;
+  background-color: #3e3e3e; /* Dark background for cards */
+  padding: 10px; /* Add padding for spacing */
+}
+
+.cont > .inside > .title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center align items vertically */
+  color: #ffffff; /* Light text color */
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.cont > .inside > .title > div {
+  padding: 10px 2px;
+}
+
+.cont > .inside > .title > div > h2 {
+  font-size: 24px; /* Adjust font size */
+}
+
+.cont > .inside > .title > div > a > h2 {
+  font-size: 16px;
+  color: #ffcc00; /* Yellow text color */
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+.cont > .inside > .cardcont > .cards > a > .upper {
+  border: 1px solid #444444;
+}
+
+.cont > .inside > .cardcont > .cards > a > .upper > img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+  border-radius: 5px; /* Add border radius if desired */
+}
+
+.cont > .inside > .cardcont > .cards > .bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items to the left */
+  padding: 10px; /* Add padding for spacing */
+  background-color: #333333;
+}
+
+.cont > .inside > .cardcont > .cards > .bottom > .workout-title > h1 {
+  font-size: 16px;
+  color: #ffffff; /* Light text color */
+  margin: 5px 0; /* Adjust margin as needed */
+}
+
+.cont > .inside > .cardcont > .cards > .bottom > .workout-title > h2 {
+  font-size: 14px;
+  color: #ffcc00; /* Yellow text color */
+  margin: 5px 0; /* Adjust margin as needed */
+}
+
+.cont > .inside > .cardcont > .cards > .bottom > .schedule > div {
+  font-size: 14px; /* Adjust font size */
+  color: #ffffff; /* Light text color */
+  margin: 5px 0; /* Adjust margin as needed */
+  text-align: center;
+}
+
+@media all and (max-width: 1320px) and (min-width: 1146px) {
+  .cont > .inside > .cardcont {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media all and (max-width: 1145px) and (min-width: 640px) {
+  .cont > .inside > .cardcont {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media all and (max-width: 639px) {
+  .cont > .inside > .cardcont {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+
+
+/* Navigation bar styles */
+/* Navbar styles */
+/* Navbar styles */
+.navbar {
+  background-color: #333333;
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  margin-right: auto; /* Pushes the brand/logo to the left */
+  padding-left: 300px;
+}
+
+.navbar-nav {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Align items vertically */
+  margin-left: auto; /* Pushes the nav links to the right */
+  position: 100px;
+  float: right;
+  padding-top: 60px;
+  padding-right: 300px;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffcc00;
+}
+
+
+
+
+
+/* Footer styles */
+
+footer {
+  background-color: #333333;
+  color: #ffffff;
+
+}
+
+footer p {
+ 
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+footer {
+  text-align: center; /* Center align text and inline elements */
+  padding: 1rem; /* Add padding for spacing */
+}
+
+footer .container {
+  max-width: 800px; /* Optional: Limit container width */
+  margin: 0 auto; /* Center align container */
+}
+
+/* Optional: Styles for the logo */
+footer img {
+  max-width: 100%; /* Ensure image stays within container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove extra space below image */
+  margin: 0 auto 10px; /* Center image with space below */
+}
+
+

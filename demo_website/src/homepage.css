@@ -1,0 +1,133 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333333;
+    padding: 15px 0;
+}
+
+
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffcc00;
+}
+
+.hero-section {
+    background-color: #333333;
+    padding: 60px 0;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.hero-section .btn {
+    background-color: #ffcc00;
+    color: #333333;
+    font-size: 18px;
+}
+
+.workout-programs .btn:hover {
+    background-color: #ffa500; 
+    color: #ffffff;
+}
+
+.workout-programs .card {
+    background-color: #333333;
+    border: none;
+    margin: 20px 0;
+}
+
+.workout-programs .card-title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.workout-programs .btn {
+    font-size: 18px;
+    width: 100%;
+}
+
+.recipes-section .recipe-card {
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 8px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.recipes-section .recipe-card img {
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.recipes-section .list-group-item {
+    display: flex;
+    align-items: center;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.recipes-section .recipe-list-image {
+    width: 50px;
+    height: 50px; 
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.recipes-section .btn {
+    background-color: #ff9900; 
+    border: none;
+    color: #ffffff;
+}
+
+.recipes-section .btn:hover {
+    background-color: #e68a00;
+}
+
+
+.contact-us-section .form-control {
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.contact-us-section .btn {
+    width: 100%;
+}
+
+.contact-us-section .rounded-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 20px 0;
+}
